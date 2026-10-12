@@ -24,7 +24,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/students") // localhost:8080/students
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://sms-ab-backend.onrender.com")
 public class StudentController {
 
       @Autowired
